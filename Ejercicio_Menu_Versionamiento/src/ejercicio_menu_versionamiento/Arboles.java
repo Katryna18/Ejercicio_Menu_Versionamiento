@@ -11,8 +11,7 @@ package ejercicio_menu_versionamiento;
  */
 public class Arboles {
 
-    void opcOcho() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void opcOcho() {
     }
     
 }

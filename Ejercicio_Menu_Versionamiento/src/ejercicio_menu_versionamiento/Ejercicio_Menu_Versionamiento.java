@@ -9,7 +9,7 @@ public class Ejercicio_Menu_Versionamiento {
    public static void main(String[] args) {
         
         //Instancia clases
-        Operaciones_Basicas objUno= new Operaciones_Basicas ();
+        Operaciones_Basicas objUno= new Operaciones_Basicas();
         Arreglos objDos = new Arreglos();
         Matrices objTres = new Matrices();
         Ordenamientos objCuatro = new Ordenamientos();
@@ -77,7 +77,7 @@ public class Ejercicio_Menu_Versionamiento {
                default:
                    JOptionPane.showMessageDialog(null, "Digita una opción valida");
         }
-       }while(opcion>0 && opcion!=7);
+       }while(opcion>0 && opcion!=10);
         
     }
    
