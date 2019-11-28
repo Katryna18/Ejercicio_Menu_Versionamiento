@@ -19,9 +19,9 @@ public class Ejercicio_Menu_Versionamiento {
        
         
         
-        int opcion;
+        int opcion = 0;
        do{
-            
+            try{
            opcion = Integer.parseInt(JOptionPane.showInputDialog("***Principal***\n"+
                                                                      "1. Operaciones Básicas\n"+
                                                                      "2. Arreglos\n"+
@@ -31,6 +31,10 @@ public class Ejercicio_Menu_Versionamiento {
                                                                      "6. Pilas\n"+
                                                                      "7. Colas\n"
                                                                      + "8. Salir"));
+           }catch(Exception ex){
+           JOptionPane.showMessageDialog(null, "Debe ingresar solo valores númericos");
+           }
+           
            
            switch(opcion){
                case 1: //Operaciones Básicas

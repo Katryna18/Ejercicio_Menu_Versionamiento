@@ -43,6 +43,7 @@ public class Operaciones_Basicas {
                 numeroDos = Integer.parseInt(JOptionPane.showInputDialog(null,"Por favor digita el valor del segundo numero"));
                 String opc = "";
                 do{
+                    
                  opc = JOptionPane.showInputDialog(null,"***Operaciones Básicas***\n"+
                                                                             "A. Sumar\n"+
                                                                             "B. Restar\n"+
