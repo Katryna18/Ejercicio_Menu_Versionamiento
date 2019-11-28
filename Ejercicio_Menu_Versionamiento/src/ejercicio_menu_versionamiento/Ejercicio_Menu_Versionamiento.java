@@ -16,8 +16,7 @@ public class Ejercicio_Menu_Versionamiento {
         Listas objCinco = new Listas();
         Pilas objSeis = new Pilas();
         Colas objSiete = new Colas();
-        Arboles objOcho = new Arboles();
-        Grafos objNueve = new Grafos();
+       
         
         
         int opcion;
@@ -31,9 +30,7 @@ public class Ejercicio_Menu_Versionamiento {
                                                                      "5. Listas\n"+
                                                                      "6. Pilas\n"+
                                                                      "7. Colas\n"
-                                                                   + "8. Arboles\n"
-                                                                   + "9. Grafos\n"
-                                                                   + "10. Salir"));
+                                                                     + "8. Salir"));
            
            switch(opcion){
                case 1: //Operaciones Básicas
@@ -64,20 +61,15 @@ public class Ejercicio_Menu_Versionamiento {
                    objSiete.opcSiete();
                    
                    break;
-               case 8://Arboles
-                   objOcho.opcOcho();
-                   break;
-               case 9://Grafos
-                   objNueve.opcNueve();
-                   break;
-               case 10://Salir
+               
+               case 8://Salir
                    JOptionPane.showMessageDialog(null, "Hasta Luego!");
                    break;
                    
                default:
                    JOptionPane.showMessageDialog(null, "Digita una opción valida");
         }
-       }while(opcion>0 && opcion!=10);
+       }while(opcion>0 && opcion!=8);
         
     }
    
